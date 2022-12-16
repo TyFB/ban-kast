@@ -5,7 +5,7 @@ const {
     removeThought,
     addReaction,
     removeReaction
-} = reqruire('../../controllers/thought-controller');
+} = require('../../controllers/thought-controller');
 
 router.route('/:userId').post(addThought);
 router
